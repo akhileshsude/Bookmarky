@@ -1,0 +1,143 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  background-color: #111111;
+}
+#title {
+  text-align: center;
+  color: ivory;
+  margin-top: 100px;
+  font-size: 57px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: cursive;
+}
+span.title {
+  color: deepskyblue;
+}
+#intro {
+  background-color: rgb(2, 244, 244);
+  width: 100%;
+}
+#nav {
+  background-color: black;
+  border: 2px solid rgb(164, 164, 164);
+  position: sticky;
+  top: 0;
+  z-index: 5;
+  height: 35px;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+nav{
+  display: grid;
+  grid-template-columns: repeat(6,auto);
+  justify-content: space-around;
+  gap: 20px;
+}
+nav div{
+  height: 30px;
+  width: max-content;
+  border-radius: 10px;
+  color: white;
+  padding-top: 7px;
+
+}
+nav> div > a{
+  font-size: 20px;
+  opacity: 70%;
+  text-decoration: none;
+  color: white;
+  align-items: center;
+  align-content: center;
+  
+}
+nav div:hover{
+  background-color: white;
+  opacity: 80%;
+  color: black;
+}
+nav> div > a:hover{
+  color: black;
+}
+
+fieldset {
+  margin-left: 50px;
+  margin-right: 50px;
+  background-color: rgb(34, 34, 34);
+}
+legend {
+  text-align: center;
+}
+legend > button {
+  color: rgba(0, 191, 255, 0.818);
+  font-weight: 900;
+  background-color: rgb(0, 0, 0);
+  border: 1px solid rgba(0, 191, 255, 0.735);
+  width: 200px;
+  height: 25px;
+  font-size: 15px;
+}
+.row1,
+.row3,
+.row4 {
+  border: 2px solid black;
+  width: 300px;
+  margin: 15px;
+  background-color: rgb(12, 12, 12);
+}
+#redirect{
+  color: rgb(240, 240, 240);
+  text-decoration: none;
+  font-size: 25px;
+}
+.poster {
+  width: 100%;
+}
+.episode {
+  width: 50px;
+}
+.row {
+  align-content: center;
+  text-align: center;
+}
+h3 {
+  margin-top: 6px;
+  margin-bottom: 10px;
+}
+#row1 {
+  display: flex;
+  justify-content: center;
+}
+#row2 {
+  display: flex;
+  justify-content: center;
+}
+#row3 {
+  display: flex;
+  justify-content: center;
+}
+#row4 {
+  display: flex;
+  justify-content: center;
+}
+.row img {
+  height: 450px;
+}
+.row1:hover {
+  box-shadow: 0 0 20px 10px rgba(2, 163, 163, 0.7);
+}
+.row3:hover {
+  box-shadow: 0 0 20px 10px rgba(0, 255, 255, 0.7);
+}
+.row4:hover {
+  box-shadow: 0 0 20px 10px rgba(0, 255, 255, 0.7);
+}
+.footer {
+  display: flex;
+  justify-content: center;
+  padding: 2px;
+}
+legend > button:hover {
+  box-shadow: 0 0 10px 5px rgba(0, 255, 255, 0.409);
+}
